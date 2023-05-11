@@ -1,7 +1,7 @@
 # CarmenSD
-react app using bootstrap
+React app using Bootstrap
 
 ## How to run 
-in terminal, cd into the project folder
-npm install
-npm run dev 
+In terminal, `cd` into the project folder  
+`npm install`  
+`npm run dev`   

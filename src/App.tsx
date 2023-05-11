@@ -4,9 +4,11 @@ import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Photo from "./components/Photo";
 import Dropdown from "./components/Dropdown";
+import Header from "./components/Header";
 
 function App() {
-  
+  let greeting = 'hay'
+
   let items = ['Lisbon', 'Big Sur', 'Mountain View'];
   
   let heading = 'Where in the world is Cameron Donahue?';
@@ -19,6 +21,7 @@ function App() {
 
   return <div>
     <>
+    <Header greeting={greeting}/>
     <Photo />
     <Dropdown />
     <ListGroup items={items} heading={heading} onSelectItem={handleSelectedItem} />

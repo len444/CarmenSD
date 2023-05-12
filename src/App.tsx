@@ -5,9 +5,10 @@ import Button from "./components/Button";
 import Photo from "./components/Photo";
 import Dropdown from "./components/Dropdown";
 import Header from "./components/Header";
+import ModeToggler from "./components/ModeToggler";
 
 function App() {
-  let greeting = 'hay'
+  let greeting = 'welcome'
 
   let items = ['Lisbon', 'Big Sur', 'Mountain View'];
   
@@ -21,6 +22,7 @@ function App() {
 
   return <div>
     <>
+    <ModeToggler />
     <Header greeting={greeting}/>
     <Photo />
     <Dropdown />
